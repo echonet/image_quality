@@ -10,6 +10,7 @@
 *.avi
 *.mp4
 *.pkl
+*.swp
 
 # Logging
 wandb

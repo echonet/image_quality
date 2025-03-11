@@ -62,5 +62,8 @@ The following are required for videos:
 - no burnt-in annotations 
 - 32 frames
 
+## Expected Runtime
+PTI takes approximately 1hr 10min for a single A4C echocardiogram video w/ 32 frames on an Nvidia A6000 GPU.
+
 ## Acknowledgements
 This code borrows heavily from [e4e](https://github.com/omertov/encoder4editing), [PTI](https://github.com/danielroich/PTI), and [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch)
