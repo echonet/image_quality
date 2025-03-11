@@ -1,0 +1,27 @@
+
+# Files which may contain sensitive data
+*.csv
+*.tsv
+*.parquet
+*.pt
+*.ckpt
+*.npy
+*.xml
+*.avi
+*.mp4
+*.pkl
+
+# Logging
+wandb
+lightning_logs
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables, python envs, and secrets
+*.env
+.venv
+
