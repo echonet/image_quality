@@ -9,18 +9,22 @@ Enhancing Echocardiogram Video Quality via Latent Space Editing
 | ![](examples/ORIGINAL_2.gif) | ![](examples/ENHANCED_2.gif) |
 
 ## Inference
-1. Navigate to the folder `pivotal_tuning_inversion`
+1. Download model weights from release. Create a directory named
+   `pretrained_models` in the `pivotal_tuning_inversion` directory. Then, insert
+   model weights into this folder.
+   
+2. Navigate to the directory `pivotal_tuning_inversion`
 ```
 cd pivotal_tuning_inversion
 ```
-2. Apply pivotal tuning inversion for echocardiogram videos (.mp4)
+3. Apply pivotal tuning inversion for echocardiogram videos (.mp4)
 ```
 python TUNE_MODEL.py --source_dir [...] --experiments_dir [...]
 ```
 
 - `--source_dir` specifies path to directory containing A4C echocardiogram videos
 - `--experiments_dir` specifies path to directory to store outputs
-3. Apply latent space editing for echocardiogram videos
+4. Apply latent space editing for echocardiogram videos
 ```
 python EDIT_VIDEOS.py --experiments_dir [...]
 ```
