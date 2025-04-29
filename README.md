@@ -72,9 +72,8 @@ We observe that generative models that synthesize images from intermediate, cons
 
 | Low Quality | Enhanced Version           |
 |------------------------------  |----------------            |
-| ![](examples/NOISY_1.png) | ![](examples/CLEAN_1.png) |
 | ![](examples/NOISY_2.png) | ![](examples/CLEAN_2.png) |
-| ![](examples/NOISY_3.png) | ![](examples/CLEAN_3.png) |
+
 
 
 ## Expected Runtime
