@@ -62,6 +62,17 @@ The following are required for videos:
 - no burnt-in annotations 
 - 32 frames
 
+## Observations + Potential Directions for Future Research
+We observe that generative models that synthesize images from intermediate, constituent parts (e.g. StyleGAN) lend themselves well to manipulating specific characteristics without changing anything else about the image. We wonder, is it feasible to extend this functionality to videos via innovations in model architecture? Broadly speaking, we believe this to be a potentially important problem for modality-specific denoising + image enhancement w/ significant clinical and technical applications. 
+
+
+| Low Quality | Enhanced Version           |
+|------------------------------  |----------------            |
+| ![](examples/NOISY_1.png) | ![](examples/CLEAN_1.png) |
+| ![](examples/NOISY_2.png) | ![](examples/CLEAN_2.png) |
+| ![](examples/NOISY_3.png) | ![](examples/CLEAN_3.png) |
+
+
 ## Expected Runtime
 PTI takes approximately 1hr 10min for a single A4C echocardiogram video w/ 32 frames on an Nvidia A6000 GPU.
 
