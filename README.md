@@ -24,7 +24,7 @@ python3 denoise.py --unet [...] --input [...] --output [...]
 
 3. For noise simulation, run the following command:
 ```
-python3 simulate_noise.py --gan [...] --encoder [...] --input [...] --output [...] --global [...] --center_field [...] --near_field[...]
+python3 simulate_noise.py --gan [...] --encoder [...] --input [...] --output [...] --global [...] --center_field [...] --near_field [...]
 ```
 - `gan`: path to pretrained weights for StyleGAN (.pkl)
 - `encoder`: path to pretrained weights for Encoder4Editing (.pt)
