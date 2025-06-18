@@ -1,0 +1,38 @@
+
+
+# Files which may contain sensitive data
+*.csv
+*.tsv
+*.parquet
+*.pt
+*.ckpt
+*.npy
+*.xml
+*.avi
+*.mp4
+*.pkl
+*.swp
+*.ipynb
+
+ANALYSIS
+DEVELOPMENT
+EXPERIMENT_RESULTS
+EXTERNAL_FRAMES
+INTERNAL_FRAMES
+EXTERNAL_QUALITATIVE
+INTERNAL_QUALITATIVE
+pretrained_models
+
+# Logging
+wandb
+lightning_logs
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables, python envs, and secrets
+*.env
+.venv
